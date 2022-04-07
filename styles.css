@@ -51,7 +51,7 @@ h1 {
 }
 
 .openbtn {
-  position: relative;
+  position: absolute;
   top: 20px;
   right: 20px;
 }
@@ -63,6 +63,6 @@ h1 {
 
 .pgeHdr {
   background-color: navy;
-  padding: 8px 8px 8px 8px;
+  padding: 8px 8px 8px 32px;
   color: #ffffff;
 }
