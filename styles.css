@@ -1,6 +1,10 @@
+html {
+  font-family: arial;
+}
+
 h1 {
   color: #000080;
-  font-size: 5rem;
+  font-size: 48px;
 }
 
 .Urhere {
