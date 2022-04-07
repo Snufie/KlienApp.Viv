@@ -66,3 +66,7 @@ h1 {
   background-size: 230px 150px
   color: #ffffff;
 }
+
+body {
+  position: relative;
+}
