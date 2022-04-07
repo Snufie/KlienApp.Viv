@@ -3,12 +3,11 @@ html {
 }
 
 h1 {
-  color: #000080;
   font-size: 48px;
 }
 
 .Urhere {
-  color: Navy;
+  color: white;
 }
 
 .logo {
@@ -52,12 +51,18 @@ h1 {
 }
 
 .openbtn {
-  position: absolute;
-  top: 10px;
-  right: 50px;
+  position: relative;
+  top: 20px;
+  right: 20px;
 }
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.pgeHdr {
+  background-color: navy;
+  padding: 8px 8px 8px 8px;
+  color: #ffffff;
 }
