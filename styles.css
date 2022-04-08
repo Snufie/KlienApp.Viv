@@ -63,8 +63,11 @@ h1 {
   .sidenav a {font-size: 18px;}
 }
 
-.pgeHdr {
-  background-color: navy;
+.header {
+  padding: 60px;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
 
 .subopenbtn {
