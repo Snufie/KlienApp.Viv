@@ -66,7 +66,7 @@ h1 {
 .pgeHdr {
   padding: 60px;
   background-color: navy;
-  background-size: 400px 180px;
+  margin: 0;
 }
 
 .subopenbtn {
