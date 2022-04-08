@@ -64,7 +64,7 @@ h1 {
 }
 
 .header {
-  padding: 5px;
+  padding: 4px;
   background: #000080;
   color: white;
 }
@@ -76,5 +76,5 @@ body {
 
 .pgetitle {
   position: relative;
-  left: 1em;
+  left: 20px;
 }
