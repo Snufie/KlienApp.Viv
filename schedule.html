@@ -6,31 +6,34 @@ LICENSE file in the root directory of this source tree.-->
 
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KlienWeb Schedule</title>
+    <title>Klien Schedules</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
-  </head>
-  <body>
+    <script src="https://kit.fontawesome.com/3e41efe772.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
     <header>
         <div class="header">
         <h1><img src="assets/Logo.PNG" alt="logo" class="logo"> Web</h1>
             <h1 class="pgetitle">Schedules</h1>
         </div>
     </header>
+    
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" style="font-size:52px" onclick="closeNav()">&times;</a>
-        <a href="home.html">Home</a>
-        <a class="Urhere" href="#"><strong>Schedules</strong></a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <a href="javascript:void(0)" class="closebtn" style="font-size:72px" onclick="closeNav()">&times;</a>
+        <a style="font-size:2em" href="home.html"><i class="fas fa-home"></i>Home</a>
+        <a style="font-size:2em" id="Urhere" href="schedule.html"><strong><i class="fas fa-calendar-alt"></i>Schedules</strong></a>
+        <a style="font-size:2em" href="#">Clients</a>
+        <a style="font-size:2em" href="#">Contact</a>
     </div>
-
+    
     <div class="openbtn">
-    <span style="font-size:96px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <span style="font-size:96px;cursor:pointer;" onclick="openNav()">&#9776;</span>
     </div>
-      
-  </body>
+    
+</body>
 </html>
