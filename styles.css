@@ -58,6 +58,10 @@ h1 {
   color: white;
 }
 
+.closebtn {
+  font-size: 64px;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
