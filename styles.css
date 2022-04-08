@@ -79,6 +79,6 @@ body {
 }
 
 .pgetitle {
-  position: relative;
+  position: absolute;
   left: 20px;
 }
