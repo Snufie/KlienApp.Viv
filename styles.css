@@ -69,6 +69,12 @@ h1 {
   .sidenav a {font-size: 18px;}
 }
 
+.pgetitle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 4em;
+}
+
 .header {
   padding: 4px;
   background: #000080;
@@ -78,10 +84,4 @@ h1 {
 body {
   position: relative;
   margin: 0;
-}
-
-.pgetitle {
-  margin-left: auto;
-  margin-right: auto;
-  width: 4em;
 }
