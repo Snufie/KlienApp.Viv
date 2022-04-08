@@ -43,10 +43,6 @@ h1 {
   color: #D0EFFE;
 }
 
-.closebtn {
-  font-size: 64px;
-}
-
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -80,6 +76,6 @@ body {
 
 .pgetitle {
   position: absolute;
-  left: 4em;
-  top: 2em;
+  left: 7em;
+  top: 0;
 }
