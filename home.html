@@ -35,5 +35,29 @@ LICENSE file in the root directory of this source tree.-->
     <span style="font-size:96px;cursor:pointer;" onclick="openNav()">&#9776;</span>
     </div>
     
+    <div>
+        <form action="login.php" method="post" class="login">
+
+        <h2>LOGIN</h2>
+
+        <?php if (isset($_GET['error'])) { ?>
+
+            <p class="error"><?php echo $_GET['error']; ?></p>
+
+        <?php } ?>
+
+        <label>Username</label>
+
+        <input type="text" name="uname" placeholder="Username"><br>
+
+        <label>Password</label>
+
+        <input type="password" name="password" placeholder="Password"><br> 
+
+        <button type="submit">Login</button>
+
+     	</form>
+    </div>
+     
 </body>
 </html>
