@@ -116,7 +116,7 @@ th {
 
 .login {
 
-    background: #91a716;
+    background-image: linear-gradient(cornflowerblue,lightcyan);
 
     display: flex;
 
@@ -128,7 +128,7 @@ th {
 
     flex-direction: column;
 
-    font-family: cursive;
+    font-family: Arial, sans-serif;
 
     box-sizing: padding-box;
 
